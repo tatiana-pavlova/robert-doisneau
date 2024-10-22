@@ -1,0 +1,67 @@
+/*
+    My personal styles
+*/
+
+.card1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.card-1-text {
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 50px;
+  letter-spacing: -1px;
+  font-size: 40px;
+  margin: 0;
+}
+
+.city-pictures {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.street-childhood {
+  width: 1000px;
+  height: 600px;
+  background-image: url('../src/lib/images/les-enfants.jpg');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom -10deg;
+}
+
+.street-childhood-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-pictures {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.lastPhoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.mainPhoto {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
